@@ -67,4 +67,11 @@ DROP DATABASE database_name;
 
 In regular operation, you won't have to use this unless there has been a decision by upper management. This is so because you can't recover its data once you run that command.
 
-#Create tables
+# Table creation
+To create a table we can use the following SQL command
+
+CREATE TABLE table_name (
+    Column name + data type + constrains if any
+)
+
+You can have as many columns as you want, and define its data type and contrains, too.
